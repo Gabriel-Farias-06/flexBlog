@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>FlexBlog</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="superinfo-bg">
+    <div class="superinfo">
+      <p>Seg / Sex - 08:00 às 18:00</p>
+      <a href="tel:+5561984954714">+55 61 98495-4714</a>
+      <p>Av. Logo Ali, 452, Botafogo - RJ</p>
+    </div>
+  </div>
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="/">FlexBlog</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#preco">Preço</a></li>
+          <li><a href="#qualidade">Qualidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="introducao">Novos valores e Propriedades CSS</h1>
+
+  <main id="sobre">
+    <div class="sobre-info">
+      <h1>Sobre</h1>
+      <p>O Flexblox passou por mudanças significativas para melhorar sua eficiência e usabilidade. Entre as atualizações, destacam-se melhorias na interface, otimizações de desempenho e maior integração com outras ferramentas. Essas alterações tornaram a plataforma mais acessível e escalável.
+      </p>
+      <p>
+        Além disso, foram implementadas melhorias na segurança e estabilidade do sistema. A personalização também foi aprimorada, permitindo ajustes mais intuitivos. Com essas mudanças, o Flexblox se fortalece como uma solução inovadora, atendendo às demandas tecnológicas do mercado. Abaixo temos demonstrações de como podemos utilizar essas propriedades.</p>
+    </div>
+    <div class="sobre-img">
+      <img src="./img/sobre1.jpg" alt="Sobre ilustração 1">
+    </div>
+    <div class="sobre-img">
+      <img src="./img/sobre2.jpg" alt="Sobre ilustração 2">
+    </div>
+  </main>
+  <article aria-labelledby="produtos-titulo" id="produtos">
+    <h1 id="produtos-titulo">Produtos</h1>
+    <ul class="produtos-container">
+      <li class="produtos-item purple">
+        <h2>Purple</h2>
+        <img src="./img/item1.jpg" alt="Imagem Roxa">
+      </li>
+      <li class="produtos-item pink">
+        <h2>Pink</h2>
+        <img src="./img/item2.jpg" alt="Imagem Rosa">
+      </li>
+      <li class="produtos-item blue">
+        <h2>Blue</h2>
+        <img src="./img/item3.jpg" alt="Imagem Azul">
+      </li>
+    </ul>
+  </article>
+  <section id="preco">
+    <div class="preco-item">
+      <h2>Cobre</h2>
+      <span><sup>R$</sup>19,99</span>
+      <ul>
+        <li>Planos limitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo completo</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <a href="/">COMPRAR</a>
+    </div>
+    <div class="preco-item">
+      <h2>Prata</h2>
+      <span><sup>R$</sup>39,99</span>
+      <ul>
+        <li>Planos limitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo completo</li>
+        <li>Suporte 24h</li>
+        <li>Compra exclusiva</li>
+      </ul>
+      <a href="/">COMPRAR</a>
+    </div>
+    <div class="preco-item">
+      <h2>Ouro</h2>
+      <span><sup>R$</sup>79,99</span>
+      <ul>
+        <li>Planos limitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo completo</li>
+        <li>Suporte 24h</li>Download dos itens</li>
+      </ul>
+      <a href="/">COMPRAR</a>
+    </div>
+  </section>
+  <section id="qualidade">
+    <div class="qualidade-item">
+      <h2>Inteligente</h2>
+      <p>Equipado com tecnologia avançada, adapta-se automaticamente às necessidades do usuário, otimizando seu desempenho com algoritmos eficientes.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Compacto</h2>
+      <p>Seu design minimalista e leve facilita o transporte e armazenamento, sem comprometer a funcionalidade.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Econômico</h2>
+      <p>Projetado para oferecer alto desempenho com baixo consumo de recursos, garantindo um excelente custo-benefício.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Transparente</h2>
+      <p>Construído com materiais translúcidos ou com um sistema de operação claro e acessível, proporcionando total visibilidade de seu funcionamento.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Opaco</h2>
+      <p>Feito com superfícies resistentes e discretas, garantindo privacidade e proteção contra interferências externas.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Sustentável</h2>
+      <p>Desenvolvido com materiais recicláveis e consumo energético reduzido, minimizando impactos ambientais.</p>
+    </div>
+  </section>
+  <section class="newsletter">
+    <div class="newsletter-info">
+      <h1>Newsletter</h1>
+      <p>Assine e fique por dentro das novidades.</p>
+    </div>
+    <form action="newsletter-form">
+      <input type="text" placeholder="Seu-email" name="email" id="email" required>
+      <button type="submit">Assinar</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>FlexBlog © Todos os Direitos Reservados</p>
+  </footer>
+</body>
+
+</html>
